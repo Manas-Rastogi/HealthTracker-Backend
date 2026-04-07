@@ -4,11 +4,7 @@ Connecting Patients, NGOs & Hospitals — Faster. Smarter. Together.
 
 
 🩸 What Is This?
-India's first all-dm mana dkwjd
-Timely accessmd a snknn ndbj
-qmmlkl    m  jd
-#The Gap❌Patients dox  x mana sta diudd
-lkjqdkjwdpported during emergencies
+India's first alxm xkjwndjkd kjkdwjk    dencies
 
 ✅ Solution
 A unified platform where patients, NGOs, and hospitals communicate in real time — so that no one waits for help that could have arrived sooner.
