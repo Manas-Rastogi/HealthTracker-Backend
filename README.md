@@ -9,8 +9,7 @@ Find hospitals by city or region
 
 🤝 Connect with NGOs
 
-Brodwd md dwkk  help ofages for help
-Receive quick support from verified NGO volunteers
+Brodwd dd hdjqwh dqww from verified NGO volunteers
 
 🧮 Smart Factor Dose Calculator
 Enter your details and get an instant calculation:
