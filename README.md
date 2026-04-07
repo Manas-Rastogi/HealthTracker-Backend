@@ -3,9 +3,7 @@
 Connecting Patients, NGOs & Hospitals — Faster. Smarter. Together.
 
 
-🩸 What Is This?
-India's first alxm xkjwndjkd kjkdwjk    dencies
-
+🩸 s,dm diqjdoiwu  dqidhjw 
 ✅ Solution
 A unified platform where patients, NGOs, and hospitals communicate in real time — so that no one waits for help that could have arrived sooner.
 
