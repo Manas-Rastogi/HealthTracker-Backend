@@ -9,11 +9,7 @@ India's first alxm xkjwndjkd kjkdwjk    dencies
 ✅ Solution
 A unified platform where patients, NGOs, and hospitals communicate in real time — so that no one waits for help that could have arrived sooner.
 
-🔗 Key Features
-🏥 Hospital Factor Availability
-
-Check real-time availability of Factor VIII, IX, DDAVP and more
-View hospital stock instantly
+🔗 Key Featuresx d dmdknqkj
 Find hospitals by city or region
 
 🤝 Connect with NGOs
