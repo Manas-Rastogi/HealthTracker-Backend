@@ -5,7 +5,7 @@ Connecting Patients, NGOs & Hospitals — Faster. Smarter. Together.
 
 🩸 What Is This?
 India's first all-dm mana dkwjd
-Timely access to Factor therapy can save lives. But patients often face critical delays due to lack of information. This platform exists to eliminate that delay.
+Timely accessmd a snknn ndbj
 qmmlkl    m  jd
 #The Gap❌Patients don't know which hospital has Factor VIII or IX❌No way to find which city has active NGOs❌Cannot check if required vials are currently available❌Patients feel alone and unsupported during emergencies
 
