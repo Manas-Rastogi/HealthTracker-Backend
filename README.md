@@ -6,8 +6,7 @@ Connecting Patients, NGOs & Hospitals — Faster. Smarter. Together.
 🩸 What Is This?
 India's first all-in-one Hemophilia Support Platform — a digital ecosystem designed to bridge the gap between Patients, NGOs, and Hospitals on a single connected network.
 Timely access to Factor therapy can save lives. But patients often face critical delays due to lack of information. This platform exists to eliminate that delay.
-
-🚨 Problem Statement
+qmmlkl    m  jd
 #The Gap❌Patients don't know which hospital has Factor VIII or IX❌No way to find which city has active NGOs❌Cannot check if required vials are currently available❌Patients feel alone and unsupported during emergencies
 
 ✅ Solution
