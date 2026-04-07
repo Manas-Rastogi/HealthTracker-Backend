@@ -7,7 +7,8 @@ Connecting Patients, NGOs & Hospitals — Faster. Smarter. Together.
 India's first all-dm mana dkwjd
 Timely accessmd a snknn ndbj
 qmmlkl    m  jd
-#The Gap❌Patients don't know which hospital has Factor VIII or IX❌No way to find which city has active NGOs❌Cannot check if required vials are currently available❌Patients feel alone and unsupported during emergencies
+#The Gap❌Patients dox  x mana sta diudd
+lkjqdkjwdpported during emergencies
 
 ✅ Solution
 A unified platform where patients, NGOs, and hospitals communicate in real time — so that no one waits for help that could have arrived sooner.
