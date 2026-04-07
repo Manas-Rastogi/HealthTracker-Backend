@@ -1,7 +1,4 @@
-🌟 Hemophilia Care Connect Platform
-
-Connecting Patients, NGOs & Hospitals — Faster. Smarter. Together.
-
+wqd kd wojj doiw
 
 🩸 s,dm diqjdoiwu  dqidhjw 
 ✅ Solution
