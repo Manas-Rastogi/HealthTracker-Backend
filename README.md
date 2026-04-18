@@ -140,7 +140,7 @@ We dream of a future where:
 
 > This platform is more than a tool — it is a **lifeline**, a **community**, a **support system**.
 
----
+---------------------------------------------------
 
 ## 🤝 Contributing
 
