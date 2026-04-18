@@ -117,7 +117,7 @@ cd hemophilia-care-connect
 docker-compose up --build
 ```
 
----
+---------------------------------------------------
 
 ## 👥 User Roles
 
