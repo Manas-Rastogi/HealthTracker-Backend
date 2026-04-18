@@ -29,7 +29,7 @@ Timely access to Factor therapy can save lives — but patients often face criti
 | No tool to calculate correct dosage | Smart dose calculator for any bleed severity |
 | Patients feel alone during emergencies | Unified request system connecting all stakeholders |
 
----
+---------------------------------------------------
 
 ## 🔗 Key Features
 
