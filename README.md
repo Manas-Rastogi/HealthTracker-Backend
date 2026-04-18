@@ -152,7 +152,7 @@ Contributions are welcome!
 4. Push to the branch: `git push origin feature/YourFeature`
 5. Open a Pull Request
 
----
+---------------------------------------------------
 
 ## 👨‍💻 Author
 
