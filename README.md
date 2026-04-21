@@ -160,7 +160,7 @@ Contributions are welcome!
 Role: Java Developer
 Tech Focus: `Spring Boot` • `React` • `Docker` • `MongoDB` • `GitHub Actions CI/CD`
 
----
+-----------------
 
 ## ⭐ Support
 
