@@ -1,7 +1,7 @@
 # 🌟 Hemophilia Care Connect
 
 > **Connecting Patients, NGOs & Hospitals — Faster. Smarter. Together.**
-
+---------------------
 ![Java](https://img.shields.io/badge/Java-17-red?style=flat-square&logo=openjdk)
 ![Spring Boot](https://img.shields.io/badge/Spring%20Boot-3.x-6DB33F?style=flat-square&logo=springboot)
 ![MongoDB](https://img.shields.io/badge/MongoDB-green?style=flat-square&logo=mongodb)
