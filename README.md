@@ -1,4 +1,4 @@
-# 🌟 Hemophilia Care Connect
+no# 🌟 Hemophilia Care Connect
 
 > **Connecting Patients, NGOs & Hospitals — Faster. Smarter. Together.**
 ------------------------
@@ -20,7 +20,7 @@ Timely access to Factor therapy can save lives — but patients often face criti
 ---------------------------------------------------
 
 ## 🚨 Problem Statement
-------------------------
+--------------------------------
 | ❌ The Gap | ✅ Our Solution |
 |---|---|
 | Patients don't know which hospital has Factor VIII or IX | Real-time hospital inventory with city-level search |
