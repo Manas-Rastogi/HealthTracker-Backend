@@ -70,7 +70,7 @@ Timely access to Factor therapy can save lives — but patients often face criti
 ---------------------------------------------------
 
 ## 🗺️ How It Works
-
+---------------------
 ```mermaid
 graph LR
     P[Patient] -->|Submits Request| PL[Platform]
