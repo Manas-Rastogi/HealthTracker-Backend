@@ -45,7 +45,7 @@ Timely access to Factor therapy can save lives — but patients often face criti
 - Receive quick guidance from NGO volunteers
 
 ### 🧮 Smart Factor Dose Calculator
------------------------------------
+--------------------------------------
 | Input | Options |
 |---|---|
 | Weight | In kg |
