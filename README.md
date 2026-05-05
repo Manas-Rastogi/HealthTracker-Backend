@@ -39,7 +39,7 @@ Timely access to Factor therapy can save lives — but patients often face criti
 - Instant availability status
 
 ### 🤝 Connect with NGOs
--------------------------
+-------------------------------------
 - Browse verified NGOs near your city
 - Send direct messages for support
 - Receive quick guidance from NGO volunteers
