@@ -154,7 +154,7 @@ Contributions are welcome!
 5. Open a Pull Request
 
 ---------------------------------------------------
-
+--------------
 ## 👨‍💻 Author
 
 **Developed by: Manas**
