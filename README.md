@@ -162,7 +162,7 @@ Role: Java Developer
 Tech Focus: `Spring Boot` • `React` • `Docker` • `MongoDB` • `GitHub Actions CI/CD`
 
 ---------------------------------------------------
----------------
+---------------------------------------------------
 ## ⭐ Support
 
 If this project matters to you, please **give it a star** ⭐ and share it.
