@@ -84,7 +84,7 @@ graph LR
 ---------------------------------------------------
 
 ## 🛠️ Tech Stack
-
+----------------
 | Layer | Technology |
 |---|---|
 | Frontend | React.js / HTML5 / CSS3 |
