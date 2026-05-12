@@ -144,7 +144,7 @@ We dream of a future where:
 ---------------------------------------------------
 
 ## 🤝 Contributing
-
+------------------
 Contributions are welcome!
 
 1. Fork the repository
