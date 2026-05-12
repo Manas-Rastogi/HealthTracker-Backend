@@ -37,7 +37,7 @@ Timely access to Factor therapy can save lives — but patients often face criti
 - Real-time stock of **Factor VIII**, **Factor IX**, **DDAVP**, and more
 - Search hospitals by city or region
 - Instant availability status
-
+------------------------
 ### 🤝 Connect with NGOs
 -------------------------------------
 - Browse verified NGOs near your city
