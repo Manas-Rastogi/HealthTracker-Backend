@@ -1,4 +1,4 @@
-🌟 Hemophilia Care Connect
+i🌟 Hemophilia Care Connect
 
 > **Connecting Patients, NGOs & Hospitals — Faster. Smarter. Together.**
 ----------------------------------------------------
@@ -10,7 +10,7 @@
 ![License](https://img.shields.io/badge/License-MIT-lightgrey?style=flat-square)
 
 ---------------------------------------------------
--------------------
+-------------------------------------
 ## 🩸 What Is This?
 ---------------------------------------------------
 **Hemophilia Care Connect** is India's first all-in-one digital platform designed to bridge the critical gap between Patients, NGOs, and Hospitals on a single connected network.
