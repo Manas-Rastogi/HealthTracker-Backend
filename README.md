@@ -61,18 +61,16 @@ graph LR
 
 Tech Stack
 
-Frontend: React.js, HTML5, CSS3
 Backend: Java 17, Spring Boot
 Database: MongoDB
 Authentication: JWT, OAuth2
-Notifications: RabbitMQ, Firebase
-DevOps: Docker, GitHub Actions
+DevOps: Docker
 
 ---
 
 Getting Started
 
-Prerequisites: Java 17, Node.js, MongoDB, Docker and Docker Compose.
+Prerequisites: Java 17, Spring Boot, MongoDB, Docker and Docker Compose.
 
 ```bash
 git clone https://github.com/Manas-Rastogi/hemophilia-care-connect.git
