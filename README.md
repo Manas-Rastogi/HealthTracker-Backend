@@ -75,7 +75,7 @@ Getting Started
 Prerequisites: Java 17, Node.js, MongoDB, Docker and Docker Compose.
 
 ```bash
-git clone https://github.com/your-username/hemophilia-care-connect.git
+git clone https://github.com/Manas-Rastogi/hemophilia-care-connect.git
 cd hemophilia-care-connect
 docker-compose up --build
 ```
@@ -117,7 +117,7 @@ Author
 
 Developed by Manas
 Role: Java Developer
-Tech Focus: Spring Boot, React, Docker, MongoDB, GitHub Actions CI/CD
+Tech Focus: Spring Boot Docker, MongoDB, GitHub Actions CI/CD
 
 ---
 
