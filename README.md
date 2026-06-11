@@ -66,7 +66,7 @@ Database: MongoDB
 Authentication: JWT, OAuth2
 DevOps: Docker
 
----
+---------------
 
 Getting Started
 
@@ -78,7 +78,7 @@ cd hemophilia-care-connect
 docker-compose up --build
 ```
 
----
+----------
 
 User Roles
 
