@@ -43,7 +43,7 @@ Share your situation directly with hospitals and NGOs. Get guidance, availabilit
 NGO Registration and Dashboard
 One-click NGO registration. Manage city-wise coverage and receive and respond to patient requests instantly.
 
----
+------------
 
 How It Works
 
