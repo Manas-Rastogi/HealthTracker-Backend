@@ -24,7 +24,7 @@ There's no tool to calculate the correct dosage — we built a smart dose calcul
 
 Patients feel alone during emergencies — our unified request system connects all stakeholders instantly.
 
----
+-----------
 
 Key Features
 
