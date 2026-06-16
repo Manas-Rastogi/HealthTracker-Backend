@@ -10,7 +10,7 @@ Hemophilia Care Connect is India's first all-in-one digital platform designed to
 
 Timely access to Factor therapy can save lives — but patients often face critical delays due to fragmented information. This platform exists to eliminate that delay.
 
-------------------
+---------------------------------------------------
 
 Problem Statements
 
