@@ -109,7 +109,7 @@ git push origin feature/YourFeature
 
 Then open a Pull Request.
 
----
+---------------------------------------------------
 
 Author
 
