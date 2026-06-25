@@ -117,7 +117,7 @@ Developed by Manas
 Role: Java Developer
 Tech Focus: Spring Boot Docker, MongoDB, GitHub Actions CI/CD
 
----
+---------------------------------------------------
 
 Support
 
