@@ -79,10 +79,8 @@ public class ReportController {
 
      @GetMapping("/analyze-and-save")
      public ResponseEntity<?> getpatientreports( @RequestParam("id") String id){
-         PatientReportEntity reportEntity = new PatientReportEntity();
-
-         reportEntity=
-         if(reportEntity==null){
+         List<PatientReportEntity> list=reportRepository.findByHospitalId(String hospitalId);
+         if(list==null){
              return new ResponseEntity<>("not found with ID: " + hospitalId, HttpStatus.NOT_FOUND);
          }
 
