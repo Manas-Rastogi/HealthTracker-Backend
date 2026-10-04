@@ -76,4 +76,20 @@ public class ReportController {
             return new ResponseEntity<>("Error processing report: " + e.getMessage(), HttpStatus.INTERNAL_SERVER_ERROR);
         }
     }
+
+     @GetMapping("/analyze-and-save")
+     public ResponseEntity<?> getpatientreports( @RequestParam("id") String id){
+         PatientReportEntity reportEntity = new PatientReportEntity();
+
+         reportEntity=
+         if(reportEntity==null){
+             return new ResponseEntity<>("not found with ID: " + hospitalId, HttpStatus.NOT_FOUND);
+         }
+
+         reportRepository.;
+
+         
+     }
+
+    
 }
