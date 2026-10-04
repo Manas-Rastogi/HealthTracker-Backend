@@ -10,9 +10,9 @@ import HeathTech.HealthTech.Service.GroqVisionService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
- import HeathTech.HealthTech.Entirty.PatientReportEntity;
 import org.springframework.web.bind.annotation.*;
 
+import java.util.List;
 import java.util.Map;
 
 @RestController
@@ -79,15 +79,12 @@ public class ReportController {
     }
 
      @GetMapping("/analyze-and-save")
-     public ResponseEntity<?> getpatientreports( @RequestParam("id") String id){
-         List<PatientReportEntity> list=reportRepository.findByHospitalId(String hospitalId);
-         if(list==null){
-             return new ResponseEntity<>("not found with ID: " + hospitalId, HttpStatus.NOT_FOUND);
+     public ResponseEntity<?> getpatientreports(@RequestParam("id") String id){
+         List<PatientReportEntity> list = reportRepository.findByHospitalId(id);
+         if(list == null){
+             return new ResponseEntity<>("not found with ID: " + id, HttpStatus.NOT_FOUND);
          }
 
-         return new ResponseEntity<>(list,HttpStatus.CREATED);
-          
+         return new ResponseEntity<>(list, HttpStatus.CREATED);
      }
-
-    
 }
