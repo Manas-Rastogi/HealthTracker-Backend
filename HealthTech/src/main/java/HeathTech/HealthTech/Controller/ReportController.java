@@ -85,6 +85,7 @@ public class ReportController {
              return new ResponseEntity<>("not found with ID: " + hospitalId, HttpStatus.NOT_FOUND);
          }
 
+         return new ResponseEntity<>(list,HttpStatus.CREATED);
           
      }
 
