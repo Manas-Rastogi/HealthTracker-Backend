@@ -10,6 +10,7 @@ import HeathTech.HealthTech.Service.GroqVisionService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
+ import HeathTech.HealthTech.Entirty.PatientReportEntity;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.Map;
@@ -84,9 +85,7 @@ public class ReportController {
              return new ResponseEntity<>("not found with ID: " + hospitalId, HttpStatus.NOT_FOUND);
          }
 
-         reportRepository.;
-
-         
+          
      }
 
     
