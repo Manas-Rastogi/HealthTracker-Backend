@@ -38,7 +38,7 @@ public class ReportController {
     public ResponseEntity<?> analyzeAndSaveReport(
             @RequestParam("username") String username,
             @RequestParam("hospitalId") String hospitalId,
-            @RequestParam("file") MultipartFile file) { // 👈 Yahan MultipartFile kar diya hai
+            @RequestParam("file") MultipartFile file) { 
 
         try {
             // 1. Hospital check
