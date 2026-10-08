@@ -36,7 +36,7 @@ public class ReportController {
     public ResponseEntity<?> analyzeAndSaveReport(
             @RequestParam("username") String username,
             @RequestParam("hospitalId") String hospitalId,
-            @RequestParam("base64Image") String base64Image) {
+            @RequestParam("file") MultipartFile file) {
 
         try {
             // 1. Hospital check
