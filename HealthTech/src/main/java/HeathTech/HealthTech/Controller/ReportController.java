@@ -11,7 +11,9 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
+import org.springframework.web.multipart.MultipartFile;
 
+import java.util.Base64;
 import java.util.List;
 import java.util.Map;
 
@@ -36,7 +38,7 @@ public class ReportController {
     public ResponseEntity<?> analyzeAndSaveReport(
             @RequestParam("username") String username,
             @RequestParam("hospitalId") String hospitalId,
-            @RequestParam("file") MultipartFile file) {
+            @RequestParam("file") MultipartFile file) { // 👈 Yahan MultipartFile kar diya hai
 
         try {
             // 1. Hospital check
@@ -51,10 +53,13 @@ public class ReportController {
                 return new ResponseEntity<>("User not found with username: " + username, HttpStatus.NOT_FOUND);
             }
 
-            // 3. Groq Vision API to image analyze
+            // 3. Convert uploaded file to Base64 string automatically
+            String base64Image = Base64.getEncoder().encodeToString(file.getBytes());
+
+            // 4. Groq Vision API to image analyze
             String aiAnalysis = groqVisionService.analyzeReportImage(base64Image);
 
-            // 4. Report and user detils save in DB (Sensitive ID omitted)
+            // 5. Report and user details save in DB
             PatientReportEntity reportEntity = new PatientReportEntity();
             reportEntity.setUsername(username);
             reportEntity.setHospitalId(hospitalId);
@@ -65,7 +70,7 @@ public class ReportController {
             reportEntity.setAiAnalysisResult(aiAnalysis);
             reportRepository.save(reportEntity);
 
-            // 5. Success response return
+            // 6. Success response return
             return ResponseEntity.ok(Map.of(
                 "message", "Report successfully analyzed and saved in database!",
                 "aiAnalysis", aiAnalysis,
@@ -78,13 +83,13 @@ public class ReportController {
         }
     }
 
-     @GetMapping("/analyze-and-save")
-     public ResponseEntity<?> getpatientreports(@RequestParam("id") String id){
-         List<PatientReportEntity> list = reportRepository.findByHospitalId(id);
-         if(list == null){
-             return new ResponseEntity<>("not found with ID: " + id, HttpStatus.NOT_FOUND);
-         }
+    @GetMapping("/analyze-and-save")
+    public ResponseEntity<?> getpatientreports(@RequestParam("id") String id) {
+        List<PatientReportEntity> list = reportRepository.findByHospitalId(id);
+        if (list == null) {
+            return new ResponseEntity<>("not found with ID: " + id, HttpStatus.NOT_FOUND);
+        }
 
-         return new ResponseEntity<>(list, HttpStatus.CREATED);
-     }
+        return new ResponseEntity<>(list, HttpStatus.CREATED);
+    }
 }
