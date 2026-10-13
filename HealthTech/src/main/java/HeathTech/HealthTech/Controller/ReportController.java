@@ -42,7 +42,7 @@ public class ReportController {
 
         try {
             // 1. Hospital check
-            Hospital hospital = hospitalDatabase.findByUsername(hospitalId);
+           Hospital hospital = hospitalDatabase.findById(hospitalId).orElse(null);
             if (hospital == null) {
                 return new ResponseEntity<>("Hospital not found with ID: " + hospitalId, HttpStatus.NOT_FOUND);
             }
