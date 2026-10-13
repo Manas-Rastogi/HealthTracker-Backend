@@ -19,7 +19,7 @@ import java.util.Map;
 
 @RestController
 @RequestMapping("/healthtech/report-ai")
-@CrossOrigin(origins = "*")
+//@CrossOrigin(origins = "*")
 public class ReportController {
 
     @Autowired
