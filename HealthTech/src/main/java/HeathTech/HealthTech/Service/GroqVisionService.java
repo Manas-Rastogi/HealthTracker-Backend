@@ -60,7 +60,7 @@ public class GroqVisionService {
         Map<String, Object> body = new HashMap<>();
         body.put("model", modelName); // use variable
         body.put("messages", Arrays.asList(message));
-        body.put("max_tokens", 1500); // Increased tokens for detailed breakdown
+        body.put("max_tokens", 800); // Increased tokens for detailed breakdown
         body.put("temperature", 0.2); // Lower temperature for high clinical accuracy & less randomness
 
         HttpEntity<Map<String, Object>> request = new HttpEntity<>(body, headers);
