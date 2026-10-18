@@ -15,6 +15,9 @@ public class GroqVisionService {
     @Value("${groq.api.url}")
     private String apiUrl;
 
+    @Value("${groq.api.model}")
+    private String modelName; // Properties model name 
+
     public String analyzeReportImage(String base64Image) {
         RestTemplate restTemplate = new RestTemplate();
 
@@ -50,7 +53,7 @@ public class GroqVisionService {
         message.put("content", Arrays.asList(textContent, imageContent));
 
         Map<String, Object> body = new HashMap<>();
-        body.put("model", "llama-3.2-11b-vision-preview");
+        body.put("model", modelName); // use variable
         body.put("messages", Arrays.asList(message));
         body.put("max_tokens", 1500); // Increased tokens for detailed breakdown
         body.put("temperature", 0.2); // Lower temperature for high clinical accuracy & less randomness
