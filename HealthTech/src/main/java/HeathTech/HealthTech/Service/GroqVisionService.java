@@ -25,17 +25,22 @@ public class GroqVisionService {
         headers.setContentType(MediaType.APPLICATION_JSON);
         headers.set("Authorization", "Bearer " + apiKey);
 
-        // Production-level detailed clinical prompt for accurate medical imaging analysis
+       // Production-level detailed clinical prompt with clean markdown formatting
         String productionPrompt = 
             "Role: You are an expert Senior Consultant Radiologist and Clinical Diagnostician.\n" +
             "Task: Perform a comprehensive, systematic radiological evaluation of the provided medical imaging (X-ray/MRI).\n\n" +
-            "Please structure your analysis into the following clear clinical sections:\n" +
-            "1. MODALITY & TECHNICAL QUALITY: Identify the imaging type, anatomical region, projection/view, and overall technical adequacy.\n" +
-            "2. SYSTEMATIC OBSERVATIONS: Detail all normal and abnormal findings methodically (e.g., bone density, joint spaces, soft tissues, opacities, fractures, effusions, or structural anomalies).\n" +
-            "3. RADIOLOGICAL IMPRESSION / DIFFERENTIALS: Provide a prioritized list of primary findings or potential diagnoses based on the visual evidence.\n" +
-            "4. CLINICAL RECOMMENDATIONS & URGENCY: Indicate the clinical severity level (Routine, Urgent, or Emergency) and suggest whether immediate specialist consultation or further correlative imaging/labs are required.\n" +
-            "5. DISCLAIMER: State clearly that this is an AI-assisted preliminary analysis and must be clinically correlated and verified by a licensed medical practitioner.\n\n" +
-            "Keep the language professional, precise, and easily understandable for both the patient and the attending physician.";
+            "Please structure your analysis using clean Markdown format with explicit headings and short bullet points:\n\n" +
+            "### 1. MODALITY & TECHNICAL QUALITY\n" +
+            "- Identify the imaging type, anatomical region, projection/view, and technical adequacy.\n\n" +
+            "### 2. SYSTEMATIC OBSERVATIONS\n" +
+            "- Detail normal/abnormal findings (bone density, joint spaces, soft tissues, fractures, or structural anomalies).\n\n" +
+            "### 3. RADIOLOGICAL IMPRESSION / DIFFERENTIALS\n" +
+            "- Provide a prioritized list of primary findings or potential diagnoses based on visual evidence.\n\n" +
+            "### 4. CLINICAL RECOMMENDATIONS & URGENCY\n" +
+            "- Indicate severity level (Routine, Urgent, or Emergency) and required specialist consultation or next steps.\n\n" +
+            "### 5. DISCLAIMER\n" +
+            "- State clearly that this is an AI-assisted preliminary analysis and must be clinically verified by a licensed medical practitioner.\n\n" +
+            "Keep the language professional, concise, well-spaced, and easy to read for both the patient and the physician.";
 
         Map<String, Object> textContent = new HashMap<>();
         textContent.put("type", "text");
